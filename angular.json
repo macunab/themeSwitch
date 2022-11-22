@@ -23,7 +23,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              {
+                "input": "src/lara-dark-blue.css",
+                "bundleName": "lara-dark",
+                "inject": false
+              },
+              {
+                "input": "src/lara-light-blue.css",
+                "bundleName": "lara-light",
+                "inject": false
+              },
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/primeng.min.css"
             ],
             "scripts": []
           },
