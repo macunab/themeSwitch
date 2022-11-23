@@ -1,1 +1,12 @@
 <h2>Hello World</h2>
+<div class="flex justify-content-center">
+  <p-card header="Switching Style" styleClass="flex align-items-center justify-content-center" [style]="{'width': '35rem', 'margin-bottom': '2em'}">
+    <p-toggleButton [(ngModel)]="darkMode" 
+    onLabel="DarkMode" 
+    offLabel="LightMode" 
+    onIcon="pi pi-sun" 
+    offIcon="pi pi-moon" 
+    [style]="{'width': '10em'}"
+    (onChange)="switchTheme()"></p-toggleButton>
+  </p-card>
+</div>
