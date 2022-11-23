@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 
 import { CardModule } from 'primeng/card';
 import { ToggleButtonModule } from 'primeng/togglebutton';
+import { SkeletonModule } from 'primeng/skeleton';
+
 
 
 @NgModule({
@@ -15,7 +17,8 @@ import { ToggleButtonModule } from 'primeng/togglebutton';
     BrowserModule,
     CardModule,
     FormsModule,
-    ToggleButtonModule
+    ToggleButtonModule,
+    SkeletonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
